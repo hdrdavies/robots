@@ -1,0 +1,41 @@
+body {
+  font-family: monospace;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 20em;
+  width: 90%;
+}
+
+.img {
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+
+textarea {
+  width: calc(100% - 4em);
+  height: 3em;
+  padding: 2em;
+}
+
+input {
+  border: none;
+  border-radius: 0.2em;
+  background: #292929;
+  color: #fff;
+  font-family: inherit;
+  height: 4em;
+  width: 100%;
+}
+
+#output {
+  background: #050F0B;
+  color: #27FF0F;
+  height: 10em;
+  padding: 2em;
+  width: calc(100% - 4em);
+}
